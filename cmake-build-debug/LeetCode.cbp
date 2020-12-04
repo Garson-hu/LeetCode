@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LeetCode">
-				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+			<Target title="twoSum_1_easy">
+				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/twoSum_1_easy" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 twoSum_1_easy"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LeetCode/fast">
-				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+			<Target title="twoSum_1_easy/fast">
+				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/twoSum_1_easy" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,91 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 twoSum_1_easy/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxProfit_714_middle">
+				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/maxProfit_714_middle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxProfit_714_middle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxProfit_714_middle/fast">
+				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/maxProfit_714_middle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxProfit_714_middle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Garson/Code/CLion/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,7 +165,15 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/Garson/Code/CLion/LeetCode/main.cpp">
-			<Option target="LeetCode"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/Garson/Code/CLion/LeetCode/maxProfit_714_middle.cpp">
+			<Option target="maxProfit_714_middle"/>
+		</Unit>
+		<Unit filename="/Users/Garson/Code/CLion/LeetCode/twoSum_1_easy.cpp">
+			<Option target="twoSum_1_easy"/>
+			<Option target="maxProfit_714_middle"/>
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/Users/Garson/Code/CLion/LeetCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

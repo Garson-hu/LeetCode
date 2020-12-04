@@ -53,7 +53,9 @@ CMAKE_BINARY_DIR = /Users/Garson/Code/CLion/LeetCode/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/LeetCode.dir/all
+all: CMakeFiles/twoSum_1_easy.dir/all
+all: CMakeFiles/maxProfit_714_middle.dir/all
+all: CMakeFiles/main.dir/all
 
 .PHONY : all
 
@@ -63,36 +65,92 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/LeetCode.dir/clean
+clean: CMakeFiles/twoSum_1_easy.dir/clean
+clean: CMakeFiles/maxProfit_714_middle.dir/clean
+clean: CMakeFiles/main.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LeetCode.dir
+# Target rules for target CMakeFiles/twoSum_1_easy.dir
 
 # All Build rule for target.
-CMakeFiles/LeetCode.dir/all:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/depend
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LeetCode"
-.PHONY : CMakeFiles/LeetCode.dir/all
+CMakeFiles/twoSum_1_easy.dir/all:
+	$(MAKE) -f CMakeFiles/twoSum_1_easy.dir/build.make CMakeFiles/twoSum_1_easy.dir/depend
+	$(MAKE) -f CMakeFiles/twoSum_1_easy.dir/build.make CMakeFiles/twoSum_1_easy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target twoSum_1_easy"
+.PHONY : CMakeFiles/twoSum_1_easy.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LeetCode.dir/rule: cmake_check_build_system
+CMakeFiles/twoSum_1_easy.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LeetCode.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/twoSum_1_easy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/LeetCode.dir/rule
+.PHONY : CMakeFiles/twoSum_1_easy.dir/rule
 
 # Convenience name for target.
-LeetCode: CMakeFiles/LeetCode.dir/rule
+twoSum_1_easy: CMakeFiles/twoSum_1_easy.dir/rule
 
-.PHONY : LeetCode
+.PHONY : twoSum_1_easy
 
 # clean rule for target.
-CMakeFiles/LeetCode.dir/clean:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/clean
-.PHONY : CMakeFiles/LeetCode.dir/clean
+CMakeFiles/twoSum_1_easy.dir/clean:
+	$(MAKE) -f CMakeFiles/twoSum_1_easy.dir/build.make CMakeFiles/twoSum_1_easy.dir/clean
+.PHONY : CMakeFiles/twoSum_1_easy.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/maxProfit_714_middle.dir
+
+# All Build rule for target.
+CMakeFiles/maxProfit_714_middle.dir/all:
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/depend
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target maxProfit_714_middle"
+.PHONY : CMakeFiles/maxProfit_714_middle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maxProfit_714_middle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maxProfit_714_middle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/maxProfit_714_middle.dir/rule
+
+# Convenience name for target.
+maxProfit_714_middle: CMakeFiles/maxProfit_714_middle.dir/rule
+
+.PHONY : maxProfit_714_middle
+
+# clean rule for target.
+CMakeFiles/maxProfit_714_middle.dir/clean:
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/clean
+.PHONY : CMakeFiles/maxProfit_714_middle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Garson/Code/CLion/LeetCode/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

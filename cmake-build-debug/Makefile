@@ -111,17 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LeetCode
+# Target rules for targets named twoSum_1_easy
 
 # Build rule for target.
-LeetCode: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LeetCode
-.PHONY : LeetCode
+twoSum_1_easy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoSum_1_easy
+.PHONY : twoSum_1_easy
 
 # fast build rule for target.
-LeetCode/fast:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
-.PHONY : LeetCode/fast
+twoSum_1_easy/fast:
+	$(MAKE) -f CMakeFiles/twoSum_1_easy.dir/build.make CMakeFiles/twoSum_1_easy.dir/build
+.PHONY : twoSum_1_easy/fast
+
+#=============================================================================
+# Target rules for targets named maxProfit_714_middle
+
+# Build rule for target.
+maxProfit_714_middle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxProfit_714_middle
+.PHONY : maxProfit_714_middle
+
+# fast build rule for target.
+maxProfit_714_middle/fast:
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/build
+.PHONY : maxProfit_714_middle/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +155,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +173,68 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+maxProfit_714_middle.o: maxProfit_714_middle.cpp.o
+
+.PHONY : maxProfit_714_middle.o
+
+# target to build an object file
+maxProfit_714_middle.cpp.o:
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/maxProfit_714_middle.cpp.o
+.PHONY : maxProfit_714_middle.cpp.o
+
+maxProfit_714_middle.i: maxProfit_714_middle.cpp.i
+
+.PHONY : maxProfit_714_middle.i
+
+# target to preprocess a source file
+maxProfit_714_middle.cpp.i:
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/maxProfit_714_middle.cpp.i
+.PHONY : maxProfit_714_middle.cpp.i
+
+maxProfit_714_middle.s: maxProfit_714_middle.cpp.s
+
+.PHONY : maxProfit_714_middle.s
+
+# target to generate assembly for a file
+maxProfit_714_middle.cpp.s:
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/maxProfit_714_middle.cpp.s
+.PHONY : maxProfit_714_middle.cpp.s
+
+twoSum_1_easy.o: twoSum_1_easy.cpp.o
+
+.PHONY : twoSum_1_easy.o
+
+# target to build an object file
+twoSum_1_easy.cpp.o:
+	$(MAKE) -f CMakeFiles/twoSum_1_easy.dir/build.make CMakeFiles/twoSum_1_easy.dir/twoSum_1_easy.cpp.o
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/twoSum_1_easy.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/twoSum_1_easy.cpp.o
+.PHONY : twoSum_1_easy.cpp.o
+
+twoSum_1_easy.i: twoSum_1_easy.cpp.i
+
+.PHONY : twoSum_1_easy.i
+
+# target to preprocess a source file
+twoSum_1_easy.cpp.i:
+	$(MAKE) -f CMakeFiles/twoSum_1_easy.dir/build.make CMakeFiles/twoSum_1_easy.dir/twoSum_1_easy.cpp.i
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/twoSum_1_easy.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/twoSum_1_easy.cpp.i
+.PHONY : twoSum_1_easy.cpp.i
+
+twoSum_1_easy.s: twoSum_1_easy.cpp.s
+
+.PHONY : twoSum_1_easy.s
+
+# target to generate assembly for a file
+twoSum_1_easy.cpp.s:
+	$(MAKE) -f CMakeFiles/twoSum_1_easy.dir/build.make CMakeFiles/twoSum_1_easy.dir/twoSum_1_easy.cpp.s
+	$(MAKE) -f CMakeFiles/maxProfit_714_middle.dir/build.make CMakeFiles/maxProfit_714_middle.dir/twoSum_1_easy.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/twoSum_1_easy.cpp.s
+.PHONY : twoSum_1_easy.cpp.s
 
 # Help Target
 help:
@@ -158,10 +244,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... LeetCode"
+	@echo "... twoSum_1_easy"
+	@echo "... maxProfit_714_middle"
+	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maxProfit_714_middle.o"
+	@echo "... maxProfit_714_middle.i"
+	@echo "... maxProfit_714_middle.s"
+	@echo "... twoSum_1_easy.o"
+	@echo "... twoSum_1_easy.i"
+	@echo "... twoSum_1_easy.s"
 .PHONY : help
 
 
