@@ -1,2 +1,2 @@
 # LeetCode
-LeetCode上面的代码
+code for LeetCode
